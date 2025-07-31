@@ -1,0 +1,56 @@
+name: audio_input_polished_app_final
+description: "A comprehensive audio recorder and preprocessor app with real-time visualization and noise reduction capabilities."
+
+# Prevent accidental publishing
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI Components
+  cupertino_icons: ^1.0.8
+
+  # Audio recording and playback - using stable, mobile-focused versions
+  flutter_sound: ^9.2.13
+  audioplayers: ^5.2.1
+
+  # Permissions
+  permission_handler: ^11.1.0
+
+  # File handling and storage
+  path_provider: ^2.1.1
+  share_plus: ^7.2.1
+
+  # Audio visualization and waveforms
+  fl_chart: ^0.65.0
+
+  # State management
+  provider: ^6.1.1
+
+  # Utilities
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # App assets
+  assets:
+    - assets/images/
+    - assets/icons/
+
+# Analyzer configuration
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
