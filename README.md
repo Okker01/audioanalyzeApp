@@ -43,6 +43,9 @@ The app provides a comprehensive interface with multiple cards for different fun
 
 ## Installation
 
+### **For better usage**
+# Just Create New Flutter Project In your computer and copy the code from main.dart and pubspec.xml ( these two are very important ... I have created everything in that two files )
+
 ### Prerequisites
 - Flutter SDK (3.8.1 or higher)
 - Android Studio / VS Code with Flutter extensions
