@@ -1,4 +1,4 @@
-# Audio Recorder & Preprocessor
+# Audio Recorder & Preprocessor By Okk
 
 A comprehensive Flutter application for professional audio recording with real-time visualization and preprocessing capabilities.
 
@@ -62,3 +62,4 @@ dependencies:
   fl_chart: ^0.65.0           # Charts and visualization
   provider: ^6.1.1            # State management
   intl: ^0.19.0               # Internationalization
+
